@@ -49,3 +49,5 @@ end
 
 # Fix issue with Rails 7
 gem "concurrent-ruby", "= 1.3.4"
+
+gem "anycable-rails", "~> 1.5"
