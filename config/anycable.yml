@@ -14,8 +14,7 @@ default: &default
   access_logs_disabled: false
   # Whether to enable gRPC level logging or not
   log_grpc: false
-  # Use HTTP broadcaster
-  broadcast_adapter: http
+  broadcast_adapter: redis
   http_broadcast_url: "http://localhost:8090/_broadcast"
   # Must be the same as in your AnyCable server config
   secret: "anycable-local-secret"

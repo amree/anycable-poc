@@ -89,6 +89,7 @@ GEM
       msgpack (~> 1.2)
     builder (3.3.0)
     concurrent-ruby (1.3.4)
+    connection_pool (2.5.0)
     crass (1.0.6)
     date (3.4.1)
     debug (1.10.0)
@@ -218,6 +219,10 @@ GEM
     rake (13.2.1)
     rdoc (6.12.0)
       psych (>= 4.0.0)
+    redis (5.4.0)
+      redis-client (>= 0.22.0)
+    redis-client (0.23.2)
+      connection_pool
     reline (0.6.0)
       io-console (~> 0.5)
     ruby-next-core (1.1.1)
@@ -257,6 +262,7 @@ DEPENDENCIES
   debug
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.7)
+  redis
   sqlite3 (~> 1.4)
   tzinfo-data
 
