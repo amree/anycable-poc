@@ -9,7 +9,7 @@
 secret = "anycable-local-secret"
 
 # Broadcasting adapters for app-to-clients messages
-broadcast_adapters = ["http"]
+# broadcast_adapters = ["http"]
 
 # Pub/sub adapter for inter-node communication
 # pubsub_adapter = "redis" # or "nats"
